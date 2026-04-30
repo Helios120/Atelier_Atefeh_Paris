@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact — Photographe mariage & graphic designer Paris</title>
+
+  <meta name="description" content="Contactez Atelier Atefeh Paris pour un reportage de mariage, une identité visuelle, un shooting de marque ou une création graphique à Paris." />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://votre-utilisateur.github.io/atelier-atefeh-site/contact.html" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark"></span>
+        <span>Atelier Atefeh <small>Paris visual studio</small></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false">Menu</button>
+
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="a-propos.html">À propos</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-title reveal">
+        <span class="eyebrow"><span class="dot"></span> Contact</span>
+
+        <h1>Parlez du projet. Le studio cadre le reste.</h1>
+
+        <p>
+          Mariage à Paris, identité visuelle, shooting de marque ou supports graphiques :
+          envoyez les informations utiles pour recevoir une réponse claire.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-tight">
+      <div class="container contact-grid">
+        <aside class="card contact-card reveal">
+          <span class="kicker">Informations</span>
+
+          <h3>Atelier Atefeh Paris</h3>
+
+          <p>
+            Graphic designer freelance & photographe mariage basée à Paris,
+            disponible en Île-de-France et sur demande pour destination wedding.
+          </p>
+
+          <p>
+            <strong>Email :</strong><br />
+            <a href="mailto:contact@atelier-atefeh.fr">contact@atelier-atefeh.fr</a>
+          </p>
+
+          <p>
+            <strong>Instagram :</strong><br />
+            <a href="https://instagram.com/" target="_blank" rel="noopener">@atelier.atefeh.paris</a>
+          </p>
+
+          <p><strong>À indiquer dans votre message :</strong></p>
+
+          <ul>
+            <li>Date et lieu du mariage ou du projet</li>
+            <li>Type de prestation souhaitée</li>
+            <li>Style recherché</li>
+            <li>Budget indicatif si déjà défini</li>
+          </ul>
+        </aside>
+
+        <form class="card form reveal" action="mailto:contact@atelier-atefeh.fr" method="post" enctype="text/plain">
+          <div class="input-group">
+            <label for="name">Nom</label>
+            <input id="name" name="Nom" type="text" placeholder="Votre nom" required />
+          </div>
+
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input id="email" name="Email" type="email" placeholder="votre@email.com" required />
+          </div>
+
+          <div class="input-group">
+            <label for="service">Type de projet</label>
+            <select id="service" name="Type de projet" required>
+              <option value="">Sélectionner</option>
+              <option>Mariage</option>
+              <option>Identité visuelle</option>
+              <option>Shooting marque / portrait</option>
+              <option>Design graphique imprimé ou digital</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label for="date">Date souhaitée</label>
+            <input id="date" name="Date" type="text" placeholder="Ex : 14 septembre 2026" />
+          </div>
+
+          <div class="input-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="Message" placeholder="Décrivez le besoin, le lieu, l'ambiance recherchée et les livrables attendus." required></textarea>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Envoyer la demande</button>
+
+          <p style="margin:0;color:var(--muted);font-size:14px">
+            Note : ce formulaire utilise l’application email du visiteur.
+            Pour un formulaire professionnel sans ouverture d’email, connectez Formspree, Netlify Forms ou Tally.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <span>© <span data-year></span> Atelier Atefeh Paris. Tous droits réservés.</span>
+      <span><a href="portfolio.html">Portfolio</a> · <a href="services.html">Services</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

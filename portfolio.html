@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Portfolio — Atelier Atefeh Paris</title>
+
+  <meta name="description" content="Portfolio d'Atelier Atefeh Paris : photographie de mariage, portraits éditoriaux, identité visuelle, supports imprimés et design graphique pour clients à Paris." />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="Portfolio — Atelier Atefeh Paris" />
+  <meta property="og:description" content="Mariages, branding, portraits et supports graphiques avec une direction artistique élégante." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.jpg" />
+
+  <link rel="canonical" href="https://votre-utilisateur.github.io/atelier-atefeh-site/portfolio.html" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark"></span>
+        <span>Atelier Atefeh <small>Paris visual studio</small></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false">Menu</button>
+
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a class="active" href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-title reveal">
+        <span class="eyebrow"><span class="dot"></span> Portfolio dédié</span>
+
+        <h1>Des projets qui montrent le style, pas du remplissage.</h1>
+
+        <p>
+          Cette page est prête pour GitHub Pages. Remplacez les visuels dans le dossier <strong>assets</strong>
+          par les vraies photos et créations. Les textes peuvent rester : ils vendent proprement le positionnement.
+        </p>
+
+        <div class="filters" aria-label="Filtres du portfolio">
+          <button class="filter-btn active" type="button" data-filter="all">Tout</button>
+          <button class="filter-btn" type="button" data-filter="mariage">Mariage</button>
+          <button class="filter-btn" type="button" data-filter="branding">Branding</button>
+          <button class="filter-btn" type="button" data-filter="editorial">Éditorial</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section-tight">
+      <div class="container portfolio-grid">
+        <article class="portfolio-item reveal" data-category="mariage">
+          <div class="work-card wedding">
+            <div class="work-content">
+              <span>Mariage Paris</span>
+              <h3>Cérémonie civile élégante</h3>
+            </div>
+          </div>
+          <div class="project-meta">
+            <h3>Mariage intime à Paris</h3>
+            <p>Reportage naturel, détails, émotions et lumière douce.</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item reveal" data-category="mariage">
+          <div class="work-card" style="--bg:linear-gradient(135deg,rgba(214,160,166,.72),rgba(58,36,50,.54)),url('assets/portfolio-mariage-02.jpg')">
+            <div class="work-content">
+              <span>Mariage</span>
+              <h3>Portraits de couple</h3>
+            </div>
+          </div>
+          <div class="project-meta">
+            <h3>Session couple</h3>
+            <p>Images éditoriales sans rigidité, direction discrète.</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item reveal" data-category="mariage">
+          <div class="work-card" style="--bg:linear-gradient(135deg,rgba(23,18,15,.58),rgba(185,135,77,.52)),url('assets/portfolio-mariage-03.jpg')">
+            <div class="work-content">
+              <span>Soirée</span>
+              <h3>Détails & ambiance</h3>
+            </div>
+          </div>
+          <div class="project-meta">
+            <h3>Réception et détails</h3>
+            <p>Décor, robe, fleurs, gestes, atmosphère.</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item reveal" data-category="branding">
+          <div class="work-card branding">
+            <div class="work-content">
+              <span>Branding</span>
+              <h3>Logo & charte</h3>
+            </div>
+          </div>
+          <div class="project-meta">
+            <h3>Identité pour maison créative</h3>
+            <p>Logo, palette, typographies, déclinaisons digitales.</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item reveal" data-category="branding">
+          <div class="work-card" style="--bg:linear-gradient(135deg,rgba(185,135,77,.76),rgba(246,236,225,.42)),url('assets/portfolio-branding-02.jpg')">
+            <div class="work-content">
+              <span>Print</span>
+              <h3>Supports raffinés</h3>
+            </div>
+          </div>
+          <div class="project-meta">
+            <h3>Édition & supports imprimés</h3>
+            <p>Cartes, menus, affiches, papeterie événementielle.</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item reveal" data-category="branding">
+          <div class="work-card" style="--bg:linear-gradient(135deg,rgba(58,36,50,.78),rgba(185,135,77,.42)),url('assets/portfolio-branding-03.jpg')">
+            <div class="work-content">
+              <span>Social</span>
+              <h3>Templates premium</h3>
+            </div>
+          </div>
+          <div class="project-meta">
+            <h3>Kit réseaux sociaux</h3>
+            <p>Une présence cohérente sans bricolage visuel.</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item reveal" data-category="editorial">
+          <div class="work-card editorial">
+            <div class="work-content">
+              <span>Portrait</span>
+              <h3>Image professionnelle</h3>
+            </div>
+          </div>
+          <div class="project-meta">
+            <h3>Portrait de créatrice</h3>
+            <p>Portraits utiles pour site, presse, réseaux et dossier client.</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item reveal" data-category="editorial">
+          <div class="work-card" style="--bg:linear-gradient(135deg,rgba(214,160,166,.58),rgba(23,18,15,.54)),url('assets/portfolio-editorial-02.jpg')">
+            <div class="work-content">
+              <span>Éditorial</span>
+              <h3>Mode & beauté</h3>
+            </div>
+          </div>
+          <div class="project-meta">
+            <h3>Série éditoriale</h3>
+            <p>Composition, textures, lumière et direction artistique.</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item reveal" data-category="editorial">
+          <div class="work-card" style="--bg:linear-gradient(135deg,rgba(246,236,225,.32),rgba(58,36,50,.7)),url('assets/portfolio-editorial-03.jpg')">
+            <div class="work-content">
+              <span>Détails</span>
+              <h3>Objets & matières</h3>
+            </div>
+          </div>
+          <div class="project-meta">
+            <h3>Textures et détails</h3>
+            <p>Images de marque pour produits, créateurs et artisans.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-tight">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Un portfolio doit rassurer vite.</h2>
+          <p>
+            Chaque projet présenté ici montre un bénéfice client : style, cohérence, émotion, supports exploitables.
+            C’est exactement ce qu’un visiteur doit comprendre avant de demander un devis.
+          </p>
+          <a class="btn btn-gold" href="contact.html">Demander une proposition</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <span>© <span data-year></span> Atelier Atefeh Paris. Tous droits réservés.</span>
+      <span><a href="index.html">Accueil</a> · <a href="services.html">Services</a> · Paris</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
